@@ -8,7 +8,8 @@ import {
   Modal,
   Dimensions,
   TouchableOpacity,
-  Image
+  Image,
+  Platform
 } from 'react-native'
 import qs from 'qs'
 import { WebView } from "react-native-webview";
@@ -132,6 +133,11 @@ export default class Instagram extends Component {
           >
             {this.renderClose()}
           </TouchableOpacity>
+          {
+            (Platform.OS === 'android') ?
+          <View style={{ height: 60, backgroundColor: 'transparent'}}/>
+          : null
+          }
         </View>
       </Modal >
 
