@@ -1,6 +1,6 @@
 {
   "name": "react-native-instagram-login",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "React Native Instagram Login, a simple Instagram login library for React Native",
   "main": "Instagram.js",
   "directories": {
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hungdev/react-native-instagram-login.git"
+    "url": "git+https://github.com/bidchatindia/react-native-instagram-login.git"
   },
   "keywords": [
     "instagram",
@@ -25,9 +25,9 @@
   "author": "hung vu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hungdev/react-native-instagram-login/issues"
+    "url": "https://github.com/bidchatindia/react-native-instagram-login/issues"
   },
-  "homepage": "https://github.com/hungdev/react-native-instagram-login#readme",
+  "homepage": "https://github.com/bidchatindia/react-native-instagram-login#readme",
   "dependencies": {
     "qs": "6.9.4",
     "react-native-webview": "^10.2.3",
