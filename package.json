@@ -30,7 +30,7 @@
   "homepage": "https://github.com/bidchatindia/react-native-instagram-login#readme",
   "dependencies": {
     "qs": "6.9.4",
-    "react-native-webview": "^10.2.3",
+    "react-native-webview": "13.10.0",
     "axios": "^0.19.2"
   }
 }
